@@ -1,0 +1,24 @@
+# To install, when in path use
+#   conda env create
+# or
+#   conda env update -n your_env_name -f environment.yml
+
+name: jlab
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - git
+  - jupyter
+  - pandas
+  - matplotlib
+  - pybis
+  - openpyxl
+  - notebook # jupyter-analysis-tools 
+  - ipywidgets # jupyter-analysis-tools
+  - pathvalidate
+  - itables
+  - pip
+  - pip:
+      - jupyter-analysis-tools
+      - nbopen
